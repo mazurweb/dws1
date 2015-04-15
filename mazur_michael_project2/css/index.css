@@ -1,1 +1,6 @@
 /* Hockey Website CSS */
+
+.container {
+    margin: auto auto;
+    width: 90%;
+}
