@@ -6,12 +6,12 @@
 /* CSS to center Page and set width w/ margins*/
 div.container {
     margin: 0 auto;
-    width: 1200px;
+    height: auto;
+    width: 100%;
     border: 1px solid #ccc;
     padding: 25px;
-    background-image: url(/images/midnight-rampage.png);
-    background-repeat: repeat-x;
-    background-position: top;
+    background: url(/images/ice-bg.jpeg) repeat-x center top;
+    height: 194px;
 }
 .nav {
     margin-bottom: 25px;
