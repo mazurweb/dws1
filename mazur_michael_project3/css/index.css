@@ -1,17 +1,16 @@
 /* Hockey Website CSS */
 @font-face{
     font-family: Coolvetica;
-    src: url(/fonts/coolvetica-rg.ttf);
+    src: url(fonts/coolvetica-rg.ttf);
 }
 /* CSS to center Page and set width w/ margins*/
 div.container {
     margin: 0 auto;
-    height: auto;
-    width: 100%;
+    width: 90%;
     border: 1px solid #ccc;
     padding: 25px;
-    background: url(/images/ice-bg.jpeg) repeat-x center top;
-    height: 194px;
+    background: rgba(248, 248, 248, .7);
+    border-radius: 10px;
 }
 .nav {
     margin-bottom: 25px;
@@ -22,7 +21,7 @@ body {
     font-style: normal;
     margin: 0;
     padding: 0;
-
+    background: url(images/ice-bg.jpg);
     width: 100%;
 }
 
@@ -34,7 +33,17 @@ ul {
 li.main-items {
     display: inline;
     padding: 10px;
-    border: 1px solid #0c73cf;
+    border: 1px solid #ccc;
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffffff 0%, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(50%,#f1f1f1), color-stop(51%,#e1e1e1), color-stop(100%,#f6f6f6)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
+    border-radius: 5px;
+
 }
 li a {
     text-decoration: none;
@@ -53,10 +62,9 @@ li a:hover, li a:active{
 
 /*Basic Body CSS*/
 h1 {
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: bold;
     font-style: normal;
-    text-shadow: 1px 1px #000;
     text-align: center;
     margin-bottom: 25px;
     font-family: Coolvetica;
@@ -116,4 +124,10 @@ figure{
 .bottom{
     clear: both;
     margin-top: 20px;
+    background: url(images/midnight-rampage.png) repeat-x center top;
+    color: #fff;
+    width: 100%;
+    padding: 25px;
+    margin-left: -25px;
+    font-size: 1.25em;
 }
