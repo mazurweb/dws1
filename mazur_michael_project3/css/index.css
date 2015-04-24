@@ -4,14 +4,14 @@
     src: url(/fonts/coolvetica-rg.ttf);
 }
 /* CSS to center Page and set width w/ margins*/
-.container {
+div.container {
     margin: 0 auto;
-    width: 90%;
-    background: #e8e8e8;
+    width: 1200px;
     border: 1px solid #ccc;
-    border-radius: 10px;
     padding: 25px;
-    box-shadow: 1px 1px #000;
+    background-image: url(/images/midnight-rampage.png);
+    background-repeat: repeat-x;
+    background-position: top;
 }
 .nav {
     margin-bottom: 25px;
@@ -20,6 +20,10 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
 }
 
 /* Nav CSS*/
@@ -55,7 +59,7 @@ h1 {
     text-shadow: 1px 1px #000;
     text-align: center;
     margin-bottom: 25px;
-    font-family: Coolvetica, sans-serif;
+    font-family: Coolvetica;
 }
 h2 {
     font-size: 1.313em;
