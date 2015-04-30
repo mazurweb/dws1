@@ -1,7 +1,7 @@
 /* Hockey Website CSS */
 @font-face{
     font-family: Coolvetica;
-    src: url(fonts/coolvetica-rg.ttf);
+    src: url(../fonts/coolvetica-rg.ttf);
 }
 /* CSS to center Page and set width w/ margins*/
 div.container {
@@ -20,7 +20,7 @@ body {
     font-style: normal;
     margin: 0;
     padding: 0;
-    background: url("images/ice-bg.jpg");
+    background: url("../images/ice-bg.jpg");
     width: 100%;
 }
 
@@ -124,7 +124,7 @@ figure{
 .bottom{
     clear: both;
     margin-top: 20px;
-    background: url(images/midnight-rampage.png) repeat-x center top;
+    background: url(../images/midnight-rampage.png) repeat-x center top;
     color: #fff;
     width: 100%;
     padding: 25px;
