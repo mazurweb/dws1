@@ -92,7 +92,16 @@
         <aside>
             <h4>For more information on Hockey please fill out the form below!</h4>
             <form>
-
+                <label>Name: <input type="text" name="Name" placeholder="Name" required/></label>
+                <label>Email: <input type="email" name="Email" placeholder="Email" required /></label>
+                <p>Subscribe to our newsletter? <label><input type="radio" name="yes"/> Yes</label> <label><input type="radio" name="no"/> No</label></p>
+                <p>Hockey type you are interested in learning more about: <select name="types">
+                    <option value="Ice">Ice Hockey</option>
+                    <option value="Field">Field Hockey</option>
+                    <option value="Roller">Roller Hockey</option>
+                    <option value="Street">Street Hockey</option>
+                </select></p>
+                <button type="submit">Submit</button>
             </form>
         </aside>
         <footer>

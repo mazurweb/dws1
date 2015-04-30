@@ -15,6 +15,14 @@ div.container {
 nav {
     margin-bottom: 40px;
 }
+article{
+    width: 60%;
+    float: left;
+}
+aside{
+    width: 35%;
+    float: right;
+}
 body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
